@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Edited from the freeCodeCamp version to improve formatting.
+
 echo -e "\n~~ Questionnaire ~~\n"
 
 QUESTION1="What's your name?"
@@ -15,4 +17,4 @@ read LOCATION
 echo $QUESTION3
 read WEBSITE
 
-echo -e "\nHello $NAME from $LOCATION. I learned that your favorite coding website is $WEBSITE!"
+echo -e "\nHello $NAME. I see you're working in $LOCATION. I learned that your favorite coding website is $WEBSITE!"
