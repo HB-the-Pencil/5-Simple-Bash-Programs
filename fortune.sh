@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Program to tell a persons fortune
+# Program to tell a person's fortune.
+# Edited from the freeCodeCamp version to improve formatting.
 
 echo -e "\n~~ Fortune Teller ~~\n"
 
@@ -12,7 +13,7 @@ GET_FORTUNE() {
   then
     echo Ask a yes or no question:
   else
-    echo Try again. Make sure it ends with a question mark:
+    echo -e "\nTry again. Make sure it ends with a question mark:"
   fi
   read QUESTION
 }
